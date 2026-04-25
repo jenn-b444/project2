@@ -1,0 +1,58 @@
+*{box-sizing: border-box;}
+body{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+background-color: rgb(235, 0, 94);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+#main-header{color:white;
+padding: 50px;
+margin-bottom: 20px;
+text
+}
+
+@keyframes fade-purple {
+    from {background-color: darkcyan;}
+
+    to {background-color: darkviolet;}
+}
+
+#hero-banner{
+    background-color:darkcyan;
+    color: antiquewhite;
+    border: 2px solid beige;
+    margin: 15px;
+    padding: 30px;
+
+    animation-name: fade-purple;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+}
+
+.hub-btn{ 
+    background-color: pink;
+    padding: 40px 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    color:maroon;
+    box-shadow: 0 10px;
+
+    transition: all .5s ease-in-out;
+}
+.hub-btn:hover {
+    transform: skew(10deg) scale(1.05);
+}
+
